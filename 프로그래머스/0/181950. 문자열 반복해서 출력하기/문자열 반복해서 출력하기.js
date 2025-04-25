@@ -11,9 +11,4 @@ rl.on('line', function (line) {
 }).on('close', function () {
     str = input[0];
     n = Number(input[1]);
-      let result = "";
-  for (let i = 0; i < n; i++) {
-    result += str;
-  }
-    console.log(result)
 });
